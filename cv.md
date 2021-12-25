@@ -1,7 +1,7 @@
 # VADIM LEGA
 ________________________________________________
 
-###Contacts:
+### Contacts:
 
     * Location: Moscow, Russia
     * E-mail: <legavv@gmail.com>
@@ -9,11 +9,11 @@ ________________________________________________
     * Discord: Vadim Lega (legavv)
     * GitHub: legavv
 
-###About Me
+### About Me
 
 I am 53 years old. I enjoy learning new things. I want to become a frot-end developer.
 
-###Skills
+### Skills
 
     * HTML
     * CSS
@@ -22,7 +22,7 @@ I am 53 years old. I enjoy learning new things. I want to become a frot-end deve
     * Piton Basic
     * Basic: Lua, R
 
-###Code Example
+### Code Example
 
 ```
 .text-block{
@@ -32,10 +32,10 @@ I am 53 years old. I enjoy learning new things. I want to become a frot-end deve
 }
 ```
 
-###Education
+### Education
 
  Moscow Institute of Physics and Technology,applied mathematics and physics
 
-###Languages
+### Languages
 
     * Russian native
