@@ -25,7 +25,7 @@ I am 53 years old. I enjoy learning new things. I want to become a frot-end deve
 ### Code Example
 
 ```
-.text-block{
+.text-block {
     background-color: blue;
     width: 228px;
     height: 21px;
@@ -34,7 +34,7 @@ I am 53 years old. I enjoy learning new things. I want to become a frot-end deve
 
 ### Education
 
- Moscow Institute of Physics and Technology,applied mathematics and physics
+ Moscow Institute of Physics and Technology, applied mathematics and physics
 
 ### Languages
 
