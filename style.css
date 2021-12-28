@@ -1,0 +1,11 @@
+.container-header {
+        display: flex;
+}
+
+.container-main {
+    display: flex;
+}
+
+.container-footer {
+    display: flex;
+}
