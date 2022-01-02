@@ -16,6 +16,10 @@
     font-weight: 300;
   }
 
+  html {
+    scroll-behavior: smooth; 
+  }
+
   body {
       min-height: 100vh;
   }
@@ -70,7 +74,7 @@
 
 .nav-list {
     display: flex;
-    list-style-type: none;
+    list-style: none;
 }
 
 .item-nav {
@@ -112,6 +116,13 @@
 
 .github {
     width: 20%;
+}
+
+.github a {
+    text-decoration: none;
+    color: black;
+    font-family: "Ubuntu";
+    font-size: 15px;
 }
 
 .since {
