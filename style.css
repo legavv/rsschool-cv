@@ -1,20 +1,41 @@
 * {
     margin: 0;
-    padding: 1;
+    padding: 0;
     box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url("/assets/fonts/Ubuntu/Ubuntu-Bold.ttf");
+    font-weight: 500;
+
+  }
+  @font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url("/assets/fonts/Ubuntu/Ubuntu-Regular.ttf");
+    font-weight: 300;
+  }
+
+  body {
+      min-height: 100vh;
   }
 
   .container {
       display: flex;
+      max-width: 1440px;
+      margin: 0 auto;
       flex-direction: column;
+      justify-content: space-between;
+      border: 3px solid green;
   }
 
 .container-header {
         display: flex;
         font-size: 20px;
-        font-family: Tahoma, sans-serif;
+        font-family: "Ubuntu";
         color: black;
         font-weight: bold;
+        border: 3px solid red;
 }
 
 .name-and-nav {
@@ -28,7 +49,8 @@
 
 .name {
     align-self: center;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .empty {
@@ -36,24 +58,22 @@
     height: 40px;
 }
 
-.item {
+.nav {
     display: flex;
     padding-bottom: 10px;
-}
-.item-header {
+    padding-top: 10px;
     text-align: center;
-    vertical-align: middle;
+
+}
+.item-nav {
     width: 16.67%;
     overflow:hidden;
 }
 
-.line {
-    border-bottom: 4px solid #fa5f06;
-}
-
 .container-main {
     display: flex;
-    font-family: Tahoma, sans-serif;
+    font-family: "Ubuntu-Regular";
+    border: 3px solid rgb(9, 25, 243);
 }
 
 .colomn-main-first {
@@ -70,31 +90,30 @@
     padding: 20px;
 }
 
-.section {
- flex-basis: 180vh;
-}
-
 .container-footer {
     display: flex;
-    
+    justify-content: space-between;
+    border: 3px solid black;
 }
 
 .item-footer {
-    padding: 10px;
+    padding: 10px 20px 0px 0px;
     text-align:center;
     font-size: 15px;
-    font-family: Tahoma, sans-serif;
+    font-family: "Ubuntu";
     font-weight: bold;
 }
 
 .github {
-    width: 240px;
+    width: 20%;
 }
 
 .since {
-    margin-left: auto;
-    margin-right: auto;
-    align-self: flex-start
+    width: 33.34%;
+}
+
+.logoschool {
+    width: 80px;
 }
 
 .skill {
@@ -110,6 +129,10 @@
 }
 
 .highlight-title {
-    border-left: 5px solid #fa5f06;
+    border-left: 4px solid #fa5f06;
     padding-left: 5px;
+}
+
+.line {
+    border-bottom: 4px solid #fa5f06;
 }
