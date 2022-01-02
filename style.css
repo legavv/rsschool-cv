@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 1;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
   }
 
 .container-header {
@@ -23,6 +23,10 @@
     overflow:hidden
 }
 
+.line {
+    border-bottom: 4px solid #fa5f06;
+}
+
 .container-main {
     display: flex;
     
@@ -30,7 +34,7 @@
 }
 
 .main {
-    font-size: 15px;
+    font-size: 13px;
     background-color: #fa5f06;
     width: 260px;
 }
@@ -71,7 +75,8 @@
 }
 
 .since {
-    /* background-color: chartreuse; */
+    margin-left: auto;
+    margin-right: auto;
     align-self: flex-start
     
 }
