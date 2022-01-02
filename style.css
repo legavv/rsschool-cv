@@ -26,7 +26,6 @@
       margin: 0 auto;
       flex-direction: column;
       justify-content: space-between;
-      border: 3px solid green;
   }
 
 .container-header {
@@ -35,7 +34,6 @@
         font-family: "Ubuntu";
         color: black;
         font-weight: bold;
-        border: 3px solid red;
 }
 
 .name-and-nav {
@@ -73,7 +71,6 @@
 .container-main {
     display: flex;
     font-family: "Ubuntu-Regular";
-    border: 3px solid rgb(9, 25, 243);
 }
 
 .colomn-main-first {
@@ -93,7 +90,6 @@
 .container-footer {
     display: flex;
     justify-content: space-between;
-    border: 3px solid black;
 }
 
 .item-footer {
