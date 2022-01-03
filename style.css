@@ -25,12 +25,20 @@
   }
 
   a.nav-link {
+    display: block;  
     text-decoration: none;
     color: black;
     font-family: "Ubuntu";
     font-size: 20px;
-
   }
+
+  a.nav-link:hover {
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 20px;
+  }
+
   .container {
       display: flex;
       max-width: 1440px;
@@ -125,6 +133,13 @@
     font-size: 15px;
 }
 
+.github a:hover {
+    text-decoration: none;
+    color: #fa5f06;
+    font-family: "Ubuntu";
+    font-size: 15px;
+}
+
 .since {
     width: 33.34%;
 }
@@ -157,3 +172,4 @@
 .line {
     border-bottom: 4px solid #fa5f06;
 }
+
