@@ -152,20 +152,12 @@
     width: 80px;
 }
 
-.skill {
+.skill, .education, .languages, .contact, .projects, .code-example {
     padding-top: 20px;
 }
 
 .shift-list {
     padding-left: 25px;
-}
-
-.education {
-    padding-top: 20px;
-}
-
-.contact {
-    padding-top: 20px;
 }
 
 .highlight-title {
