@@ -24,6 +24,9 @@
       min-height: 100vh;
   }
 
+.nav-link {
+    transition: .7s;
+}
   a.nav-link {
     display: block;  
     text-decoration: none;
@@ -124,6 +127,7 @@
 
 .github {
     width: 20%;
+    transition: .7s;
 }
 
 .github a {
