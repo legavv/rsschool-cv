@@ -52,10 +52,17 @@
 
 .container-header {
         display: flex;
+        padding: 10px;
         font-size: 20px;
         font-family: "Ubuntu";
         color: black;
         font-weight: bold;
+}
+
+.free-space {
+    display: flex;
+    justify-content: flex-end;
+    width: 99%;
 }
 
 .name-and-nav {
@@ -63,8 +70,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-    
-    width: 99%;
+    width: 90%;
 }
 
 .name {
@@ -82,7 +88,7 @@
 
 .nav {
     background-color: #fa5f06; 
-    height: 30px;
+    /* height: 30px; */
     padding: 3px 0px 5px 0px;
     text-align: center;
 }
@@ -167,7 +173,7 @@
 }
 
 .highlight-title {
-    border-left: 4px solid #fa5f06;
+    border-left: 30px solid #fa5f06;
     padding-left: 5px;
 }
 
