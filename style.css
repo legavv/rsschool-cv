@@ -30,25 +30,25 @@
   a.nav-link {
     display: block;  
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Ubuntu";
     font-size: 20px;
   }
 
   a.nav-link:hover {
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: "Ubuntu";
     font-size: 20px;
   }
 
-  .container {
+.container {
       display: flex;
       max-width: 1440px;
       margin: 0 auto;
       flex-direction: column;
       justify-content: space-between;
-  }
+}
 
 .container-header {
         display: flex;
@@ -63,14 +63,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-    background-color: #fa5f06; 
+    
     width: 99%;
 }
 
 .name {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-color: #fa5f06; 
+    padding: 0, 15px;
     text-align: center;
+    font-size: 35px;
+    color: white;
 }
 
 .empty {
@@ -79,7 +81,9 @@
 }
 
 .nav {
-    padding-bottom: 8px;
+    background-color: #fa5f06; 
+    height: 30px;
+    padding: 3px 0px 5px 0px;
     text-align: center;
 }
 
