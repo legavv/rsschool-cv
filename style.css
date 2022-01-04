@@ -146,10 +146,12 @@
 
 .since {
     width: 33.34%;
+    align-self: end;
 }
 
 .logoschool {
     width: 80px;
+    align-self: end;
 }
 
 .skill, .education, .languages, .contact, .projects, .code-example {
