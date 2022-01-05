@@ -27,9 +27,14 @@
 .nav-link {
     transition: .7s;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
   a.nav-link {
     display: block;  
-    text-decoration: none;
+    
     color: white;
     font-family: "Ubuntu";
     font-size: 20px;
@@ -171,6 +176,7 @@
 .shift-list {
     padding-left: 30px;
     list-style: none;
+    color: black;
 }
 
 .highlight-title {
@@ -181,6 +187,7 @@
 .line {
     border-bottom: 4px solid #fa5f06;
 }
+
  .img-html, .img-css, .img-github, .img-csharp, .img-python, .img-lua, 
  .img-r, .img-location, .img-email, .img-telegram, .img-discord {
    display: flex;
@@ -189,5 +196,7 @@
  .name-html, .name-css, .name-github, .name-csharp, .name-python, .name-lua, 
  .name-r, .name-location, .name-email, .name-telegram, .name-discord {
     align-self: center;
+    padding-left: 15px;
  }
+
 
